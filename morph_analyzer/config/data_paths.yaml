@@ -1,0 +1,23 @@
+urdu:
+  test: "./datasets/UDTB_pre_release_version-0.01/Intra-chunk/CONLL/utf/Testing/"
+  train: "./datasets/UDTB_pre_release_version-0.01/Intra-chunk/CONLL/utf/Training/"
+  validation: "./datasets/UDTB_pre_release_version-0.01/Intra-chunk/CONLL/utf/Development/"
+hindi:
+  test: "./datasets/HDTB_pre_release_version-0.05/IntraChunk/CoNLL/wx/news_articles_and_heritage/Testing/"
+  train:  "./datasets/HDTB_pre_release_version-0.05/IntraChunk/CoNLL/wx/news_articles_and_heritage/Training/"
+  validation: "./datasets/HDTB_pre_release_version-0.05/IntraChunk/CoNLL/wx/news_articles_and_heritage/Development/"
+bhojpuri:
+  test: "./datasets/Bhojpuri_Testset/wx/"
+  train:  "./datasets/HDTB_pre_release_version-0.05/IntraChunk/CoNLL/wx/news_articles_and_heritage/Training/"
+  validation: "./datasets/HDTB_pre_release_version-0.05/IntraChunk/CoNLL/wx/news_articles_and_heritage/Development/"
+output_hindi: 'output/hindi/'
+output_urdu: 'output/urdu/'
+output_bhojpuri: 'output/bhojpuri/'
+model_weights:
+  1: 'src/model_weights/model'
+  2: 'src/model_weights/model_with_phonetic'
+  3: 'src/model_weights/model_frozen'
+  4: 'src/model_weights/model_with_phonetic_frozen'
+hindi_predict_input: 'src/hindi_predict_data/test_data.txt'
+urdu_predict_input: 'src/urdu_predict_data/test_data.txt'
+bhojpuri_predict_input: 'src/bhojpuri_predict_data/test_data.txt'
