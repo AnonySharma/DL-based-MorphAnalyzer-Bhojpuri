@@ -57,17 +57,17 @@ The file `main.py` takes the following command-line arguments:
 ### Run commands: 
 Training:
 ```python
->>> python main.py --lang bhojpuri --mode train --phonetic true --freezing true
+python main.py --lang bhojpuri --mode train --phonetic true --freezing true
 ```
 
 Testing:
 ```python
->>> python main.py --lang bhojpuri --mode test --phonetic true --freezing true 
+python main.py --lang bhojpuri --mode test --phonetic true --freezing true 
 ```
 
 Predicting:
 ```python
->>> python main.py --lang bhojpuri --mode predict --phonetic true --freezing true 
+python main.py --lang bhojpuri --mode predict --phonetic true --freezing true 
 ```
 
 For prediction, the plain text should be provided within `src/[lang]_predict_data/test_data.txt`.
