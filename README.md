@@ -3,12 +3,13 @@
 
 ![image](https://github.com/AnonySharma/DL-based-MorphAnalyzer-Bhojpuri/blob/master/front.png)
 
-**Base:**
+# Description
+## Base
 A multi-task learning CNN-RNN model combined together with the potential of task-optimized phonetic features to predict the Lemma, POS category, Gender, Number, Person, Case, and Tense-aspect-mood (TAM) of Hindi words. **(using MT-DMA)**
 
 ![image](https://github.com/AnonySharma/DL-based-MorphAnalyzer-Bhojpuri/blob/master/morph_analyzer/src/images/sample.png)
 
-**Improvement:**
+## Improvement
 Used Unsupervised Domain Adaptation(UDA) to train the model on the training data of Hindi, and then testing it on Bhojpuri which resulted into around 70% accuracy.
 
 
@@ -16,7 +17,7 @@ Used Unsupervised Domain Adaptation(UDA) to train the model on the training data
 **Report:** [link](https://drive.google.com/file/d/1eLaWkbN1VAmueGimYe4nlvPkkDK6VYxi/view?usp=sharing)
 **Presentation:** [link](https://docs.google.com/presentation/d/1Hn_99vbOGmUy2mSKo6tzJixyGDQP0pV6tnliOTlh9Yw/edit?usp=sharing)
 
-## Framework
+# Framework
 
 ![image2](https://github.com/AnonySharma/DL-based-MorphAnalyzer-Bhojpuri/blob/master/morph_analyzer/src/images/morph_analyzer_model.png)
 
