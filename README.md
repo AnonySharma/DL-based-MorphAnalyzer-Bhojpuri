@@ -31,7 +31,9 @@ git clone https://github.com/AnonySharma/DL-based-MorphAnalyzer-Bhojpuri.git
 cd DL-based-MorphAnalyzer-Bhojpuri
 cd morph_analyzer
 ```
-### Install all the dependencies (USE PYTHON 3.7)
+### Install all the dependencies
+
+> Use Python 3.7 due to dependency deprecation issues
 
 ```
 pip install -r requirements.txt
