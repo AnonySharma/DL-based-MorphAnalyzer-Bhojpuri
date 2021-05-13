@@ -13,8 +13,9 @@ A multi-task learning CNN-RNN model combined together with the potential of task
 Used Unsupervised Domain Adaptation(UDA) to train the model on the training data of Hindi, and then testing it on Bhojpuri which resulted into around 70% accuracy.
 
 
-# Report and Presentation
+## Report and Presentation
 **Report:** [link](https://drive.google.com/file/d/1eLaWkbN1VAmueGimYe4nlvPkkDK6VYxi/view?usp=sharing)
+
 **Presentation:** [link](https://docs.google.com/presentation/d/1Hn_99vbOGmUy2mSKo6tzJixyGDQP0pV6tnliOTlh9Yw/edit?usp=sharing)
 
 # Framework
