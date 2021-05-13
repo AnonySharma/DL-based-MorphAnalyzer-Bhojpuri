@@ -52,7 +52,7 @@ The file `main.py` takes the following command-line arguments:
 | lang     | hindi, urdu, bhojpuri  | Yes | Language |
 | mode     | train, test and predict (i.e., no gold labels required) | Yes |  Training, testing and predictions. |
 | phonetic | True/1/yes/y/t and False/0/no/n/f | No (default=`False`) | Use MOO-driven phonological features or not. |
-| freezing | "       "      and "       " | No (default=`False`) | Use progressive freezing for training or not (see [FreezeOut](https://arxiv.org/abs/1706.04983)). |
+| freezing | True/1/yes/y/t and False/0/no/n/f | No (default=`False`) | Use progressive freezing for training or not (see [FreezeOut](https://arxiv.org/abs/1706.04983)). |
 
 ### Run commands: 
 Training:
